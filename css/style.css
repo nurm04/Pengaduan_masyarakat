@@ -1,0 +1,2108 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.conten {
+  margin: 0px 0px 0px 0px;
+  padding: 30px;
+  min-height: 520px;
+  background: rgb(235, 235, 235);
+}
+.conten1 {
+  margin: 0px 0px 0px 0px;
+  padding: 30px;
+  padding-top: 85px;
+  min-height: 575px;
+  background: rgb(235, 235, 235);
+}
+.conten2 {
+  margin: 57px 0px 0px 200px;
+  padding: 30px;
+  min-height: 580px;
+  background: rgb(235, 235, 235);
+}
+.ct1 {
+  background-color: #ffffff;
+}
+.ct2 {
+  background-color: #2e8782;
+}
+.ct3 {
+  background-color: #21615e;
+}
+.kosong {
+  width: 100%;
+  height: 455px;
+  display: grid;
+  place-items: center center;
+  background: rgb(255, 255, 255, 0);
+}
+.kembali {
+  color: #000;
+  text-decoration: none;
+}
+span.warning {
+  color: #ff0000;
+}
+nav .pagination {
+  position: absolute;
+  right: 40%;
+}
+/* NAVBAR */
+.nav {
+  width: 100%;
+}
+.hal1 .nav .navbar.ct1,
+.nav .navbar.ct2 {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  z-index: 100;
+}
+.hal1 .nav .navbar.ct1 a {
+  color: #2e8782;
+}
+.nav .navbar.ct2 a {
+  color: #ffffff;
+}
+.hal1 .nav .navbar.ct1 a:hover,
+.nav .navbar.ct2 a:hover {
+  color: #000;
+}
+.hal1 .nav .navbar.ct1 .settings,
+.nav .navbar.ct2 .settings {
+  height: 36px;
+  background-color: #2e8782;
+  font-size: 26px;
+  padding: 0px;
+  border-radius: 5px;
+  padding: 0px 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: 0px;
+}
+.hal1 .nav .navbar.ct1 .btn-group button:nth-child(1),
+.nav .navbar.ct2 .btn-group button:nth-child(1) {
+  background-color: #2e8782;
+  padding-right: 15px;
+  height: 36px;
+  color: #fff;
+}
+.nav .navbar.ct2 .btn-group button:nth-child(1) {
+  background: #fff;
+  color: #2e8782;
+}
+.nav .navbar.ct2 .btn-group .dropdown-item {
+  color: #2e8782;
+}
+.hal1 .nav .navbar.ct1 .btn-group .dropdown-item:hover,
+.nav .navbar.ct2 .btn-group .dropdown-item:hover {
+  color: #21615e;
+}
+.hal1 .nav .navbar.ct1 .btn-group .dropdown-item:active,
+.nav .navbar.ct2 .btn-group .dropdown-item:active {
+  background-color: #2e8782;
+  color: #fff;
+}
+.hal1 .nav .navbar.ct1 .settings.apa {
+  font-size: 15px;
+}
+.hal1 .nav .navbar.ct1 .settings.apa:hover {
+  font-size: 15px;
+  background-color: #287470;
+}
+.hal1 .nav .navbar.ct1 .settings button:nth-child(1) {
+  border: 0px;
+  background: rgba(0, 0, 0, 0);
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+.nav .navbar.ct2 .settings button i {
+  color: #2e8782;
+}
+.hal1 .nav .navbar.ct1 .settings a {
+  color: #fff;
+  text-decoration: none;
+}
+.hal1 .nav .navbar.ct1 .settings:hover,
+nav .navbar.ct2 .settings:hover {
+  background-color: #287470;
+}
+.hal1 .nav .navbar.ct1 .settings .offcanvas-header button,
+.nav .navbar.ct2 .settings .offcanvas-header button {
+  background: #000;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.hal1 .nav .navbar.ct1 .settings .offcanvas-header button i,
+.nav .navbar.ct2 .settings .offcanvas-header button i {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  position: absolute;
+  top: 1px;
+  left: 5px;
+}
+.hal1 .nav .navbar.ct1 .settings .form label,
+.nav .navbar.ct2 .settings .form label {
+  font-size: 15px;
+}
+.hal1 .nav .navbar.ct1 .settings .form label,
+.nav .navbar.ct2 .settings .form label {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0px;
+}
+.hal1 .nav .navbar.ct1 .settings .offcanvas-body button,
+.nav .navbar.ct2 .settings .offcanvas-body button {
+  background: #000;
+}
+.hal1 .nav .navbar.ct1 .settings .logout,
+.nav .navbar.ct2 .settings .logout {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.hal1 .nav .navbar.ct1 .settings .logout a,
+.nav .navbar.ct2 .settings .logout a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
+.hal1 .nav .navbar.ct1 .navbar-toggler {
+  display: none;
+}
+.hal1 .navbar.ct2 {
+  width: 100%;
+  height: 25px;
+  padding-left: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 55px;
+  z-index: 90;
+}
+.hal1 .navbar.ct2 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: -7px;
+}
+.hal1 .navbar.ct2 ul li a {
+  color: #ffffff;
+}
+.sidebar {
+  top: 56px;
+  width: 200px;
+  height: 100%;
+}
+.sidebar ul {
+  padding: 30px;
+}
+.sidebar ul a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.sidebar ul .list {
+  text-decoration: none;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 50px 100px;
+  font-size: 13px;
+  margin-top: 20px;
+}
+.sidebar ul .list li {
+  list-style: none;
+  margin-bottom: 13px;
+}
+.sidebar ul .list:hover {
+  color: #2e8782;
+}
+.sidebar ul .list i {
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px;
+}
+.sidebar ul .list .apa {
+  margin-bottom: 7px;
+}
+.sidebar .card.card-body {
+  padding: 0px;
+  font-size: 13px;
+  width: 150px;
+}
+.sidebar .card.card-body ul {
+  padding: 10px;
+  padding-left: 20px;
+}
+.sidebar .card.card-body ul li {
+  list-style: disc;
+  line-height: 3;
+}
+.sidebar .card.card-body ul li a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  display: block;
+  color: #000;
+  font-weight: 400;
+}
+/* navbar */
+
+/* HAL1 */
+.hal1 .atas {
+  position: relative;
+  background: rgba(33, 97, 94, 1);
+  width: 100%;
+  height: 600px;
+  z-index: 2;
+}
+.hal1 .atas img {
+  width: 500px;
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+  /* background: #000; */
+}
+.hal1 .atas h1 {
+  position: absolute;
+  top: 170px;
+  left: 40px;
+  color: rgb(255, 255, 255);
+}
+.hal1 .atas h5 {
+  position: absolute;
+  width: 45%;
+  top: 270px;
+  left: 40px;
+  color: rgb(255, 255, 255);
+}
+.hal1 .conten .tentang {
+  margin-top: -100px;
+  padding-top: 200px;
+  position: relative;
+  height: 600px;
+}
+.hal1 .conten .tentang h3 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+.hal1 .conten .tentang .text {
+  position: absolute;
+  right: 20px;
+  top: 150px;
+  width: 50%;
+}
+.hal1 .conten .tentang .text h4 {
+  color: #21615e;
+}
+.hal1 .conten .tentang img {
+  width: 450px;
+  bottom: -50px;
+  left: 0px;
+  position: absolute;
+}
+.hal1 .conten .tutor {
+  height: 620px;
+  width: 100%;
+  /* border: #000 1px solid; */
+  padding: 50px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.hal1 .conten .tutor h3 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+.hal1 .conten .tutor i:nth-child(3),
+.hal1 .conten .tutor i:nth-child(5) {
+  font-size: 70px;
+  margin-top: 50px;
+}
+.hal1 .conten .tutor .kotak {
+  height: 300px;
+  margin-top: 70px;
+  padding: 25px;
+  width: 250px;
+  border: rgba(0, 0, 0, 0.3) 1px solid;
+  text-align: center;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  background-color: #21615e;
+  color: #fff;
+}
+.hal1 .conten .tutor .kotak i {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+/* hal1 */
+
+/* BERANDA */
+.conten1 .beranda .tentang {
+  margin-top: -100px;
+  padding-top: 200px;
+  position: relative;
+  height: 600px;
+}
+.conten1 .beranda .tentang h3 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+.conten1 .beranda .tentang .text {
+  position: absolute;
+  right: 20px;
+  top: 150px;
+  width: 50%;
+}
+.conten1 .beranda .tentang .text h4 {
+  color: #21615e;
+}
+.conten1 .beranda .tentang img {
+  width: 450px;
+  bottom: -50px;
+  left: 0px;
+  position: absolute;
+}
+.conten1 .beranda .tutor {
+  height: 620px;
+  width: 100%;
+  /* border: #000 1px solid; */
+  padding: 50px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.conten1 .beranda .tutor h3 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+.conten1 .beranda .tutor i:nth-child(3),
+.conten1 .beranda .tutor i:nth-child(5) {
+  font-size: 70px;
+  margin-top: 50px;
+}
+.conten1 .beranda .tutor .kotak {
+  height: 300px;
+  margin-top: 70px;
+  padding: 25px;
+  width: 250px;
+  border: rgba(0, 0, 0, 0.3) 1px solid;
+  text-align: center;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  background-color: #21615e;
+  color: #fff;
+}
+.conten1 .beranda .tutor .kotak i {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+/* beranda */
+
+/* DASHBOARD */
+.dashboard .data {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #000;
+  background: rgb(235, 235, 235);
+}
+.dashboard .data .kotak {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 250px;
+  height: 100px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.5);
+}
+.dashboard .data .kotak i {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.dashboard .data .kotak p {
+  width: 200px;
+  font-weight: 600;
+}
+/* dashboard */
+
+/* LOGIN */
+.login {
+  display: grid;
+  place-items: center center;
+  height: 601px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 300;
+}
+.login a:nth-child(2) {
+  height: 601px;
+  width: 100%;
+  cursor: default;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 250;
+}
+.login .kotak {
+  width: 400px;
+  padding: 50px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 300;
+}
+.login .kotak .kembali {
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  border: 0px;
+  background: rgba(0, 0, 0, 0);
+  top: 10px;
+  left: 10px;
+}
+.login .kotak .kembali:hover {
+  color: rgb(197, 197, 197);
+}
+.login .kotak p button,
+.login .kotak p a {
+  text-decoration: none;
+  padding: 0px;
+  border: 0px;
+  background: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.login .kotak p button:hover,
+.login .kotak p a:hover {
+  color: rgb(197, 197, 197);
+}
+/* login */
+
+/* register */
+.register {
+  display: grid;
+  place-items: center center;
+  height: 601px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 300;
+}
+.register a:nth-child(2) {
+  height: 601px;
+  width: 100%;
+  cursor: default;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 250;
+}
+.register .kotak {
+  width: 400px;
+  padding: 50px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 300;
+}
+.register .kotak .kembali {
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  border: 0px;
+  background: rgba(0, 0, 0, 0);
+  top: 10px;
+  left: 10px;
+}
+.register .kotak .kembali:hover {
+  color: rgb(197, 197, 197);
+}
+.register .kotak p button,
+.register .kotak p a {
+  text-decoration: none;
+  padding: 0px;
+  border: 0px;
+  background: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.register .kotak p button:hover,
+.register .kotak p a:hover {
+  color: rgb(197, 197, 197);
+}
+/* register */
+
+/* LAPOR */
+.lapor form {
+  width: 75%;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  padding: 35px;
+}
+.lapor form textarea {
+  height: 200px;
+}
+/* lapor */
+
+/* DATA LAPORAN MASYARAKAT */
+.data_laporan_masyarakat {
+  position: relative;
+}
+.data_laporan_masyarakat a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.data_laporan_masyarakat .card .btn.apa a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.data_laporan_masyarakat .kosong {
+  width: 100%;
+  height: 455px;
+  display: grid;
+  place-items: center center;
+  background: rgb(255, 255, 255, 0);
+}
+.data_laporan_masyarakat .card {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  position: relative;
+  width: 48rem;
+}
+.data_laporan_masyarakat .card .atass {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.data_laporan_masyarakat .card .atass .btn.pdf {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.data_laporan_masyarakat .card .atass .lebel {
+  background: rgb(211, 211, 211);
+  padding: 10px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  border-top-right-radius: 6px;
+}
+.data_laporan_masyarakat .card a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.data_laporan_masyarakat .card a:hover {
+  color: rgb(99, 99, 99);
+}
+.data_laporan_masyarakat .card .aksi {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.data_laporan_masyarakat .card table {
+  margin-bottom: 35px;
+}
+.data_laporan_masyarakat .card table tr td:nth-child(1) {
+  width: 150px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+.data_laporan_masyarakat .card table tr td:nth-child(1) p {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.data_laporan_masyarakat .card table tr td:nth-child(2) {
+  padding-left: 7px;
+}
+.data_laporan_masyarakat .modal .modal-body .form .form-control {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  background: rgba(0, 0, 0, 0);
+}
+.data_laporan_masyarakat .d-flex {
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 100px;
+  margin-left: 50px;
+  width: 450px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-sizing: border-box;
+  border: 1.5px solid rgb(0, 0, 0);
+}
+.data_laporan_masyarakat .d-flex input {
+  width: 402px;
+  margin: 0px;
+  height: 36px;
+  border: 0px;
+  background-color: #ffffff;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  z-index: 2;
+}
+.data_laporan_masyarakat .d-flex button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 36px;
+  width: 43px;
+  font-size: 26px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  z-index: 1;
+  background: rgba(0, 0, 0, 1);
+}
+.data_laporan_masyarakat .d-flex button:hover i {
+  color: #a2a2a2;
+  /* color: #3c3c3c; */
+  cursor: pointer;
+}
+.data_laporan_masyarakat .d-flex button i {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  color: #fff;
+}
+.data_laporan_masyarakat .foto {
+  max-width: 100%;
+  max-height: 150px;
+  margin-bottom: 20px;
+}
+/* data laporan masyarakat */
+
+/* LAPORAN MASUK */
+.laporan_masuk {
+  position: relative;
+}
+.laporan_masuk a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.laporan_masuk .card .btn.apa a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.laporan_masuk .kosong {
+  width: 100%;
+  height: 455px;
+  display: grid;
+  place-items: center center;
+  background: rgb(255, 255, 255, 0);
+}
+.laporan_masuk .card {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  position: relative;
+  width: 48rem;
+}
+.laporan_masuk .card .atas {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.laporan_masuk .card .atas .btn.pdf {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.laporan_masuk .card .atas .lebel {
+  background: rgb(211, 211, 211);
+  /* width: 100px; */
+  padding: 10px;
+  text-align: center;
+  /* position: absolute;
+    top: 0px;
+    right: 0px; */
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  border-top-right-radius: 6px;
+}
+.laporan_masuk .card a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.laporan_masuk .card table {
+  margin-bottom: 35px;
+}
+.laporan_masuk .card table tr td:nth-child(1) {
+  width: 150px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+.laporan_masuk .card table tr td:nth-child(1) p {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.laporan_masuk .card table tr td:nth-child(2) {
+  padding-left: 7px;
+}
+.laporan_masuk .card a:hover {
+  color: rgb(99, 99, 99);
+}
+.laporan_masuk .card .aksi {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.laporan_masuk .modal .modal-body .form .form-control {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  background: rgba(0, 0, 0, 0);
+}
+.laporan_masuk .d-flex {
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 100px;
+  margin-left: 50px;
+  width: 450px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-sizing: border-box;
+  border: 1.5px solid rgb(0, 0, 0);
+}
+.laporan_masuk .d-flex input {
+  width: 402px;
+  margin: 0px;
+  height: 36px;
+  border: 0px;
+  background-color: #ffffff;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  z-index: 2;
+}
+.laporan_masuk .d-flex button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 36px;
+  width: 43px;
+  font-size: 26px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  z-index: 1;
+  background: rgba(0, 0, 0, 1);
+}
+.laporan_masuk .d-flex button:hover i {
+  color: #a2a2a2;
+  /* color: #3c3c3c; */
+  cursor: pointer;
+}
+.laporan_masuk .d-flex button i {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  color: #fff;
+}
+.laporan_masuk .foto {
+  max-width: 100%;
+  max-height: 150px;
+  margin-bottom: 20px;
+}
+/* laporan masuk */
+
+/* DETAIL LAPORAN */
+.detail_laporan {
+  position: relative;
+}
+.detail_laporan a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.detail_laporan .card .btn.apa a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.detail_laporan .kosong {
+  width: 100%;
+  height: 455px;
+  display: grid;
+  place-items: center center;
+  background: rgb(255, 255, 255, 0);
+}
+.detail_laporan .card {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  padding-bottom: 35px;
+  position: relative;
+  width: 48rem;
+}
+.detail_laporan .card table {
+  margin-bottom: 35px;
+}
+.detail_laporan .card table tr td:nth-child(1) {
+  width: 150px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+.detail_laporan .card table tr td:nth-child(1) p {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.detail_laporan .card table tr td:nth-child(2) {
+  padding-left: 7px;
+}
+.detail_laporan .card .atass {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.detail_laporan .card .atass .btn.pdf {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.detail_laporan .card .atass .lebel {
+  background: rgb(211, 211, 211);
+  padding: 10px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  border-top-right-radius: 6px;
+}
+.detail_laporan .card a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.detail_laporan .card a:hover {
+  color: rgb(99, 99, 99);
+}
+.detail_laporan .card .aksi {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.detail_laporan .card .aksi .btn-secondary:hover {
+  color: #fff;
+}
+.detail_laporan .card .aksi1 {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.detail_laporan .card .aksi1 .btn {
+  width: 70px;
+}
+.detail_laporan .card .mb-3 label h6 a,
+.detail_laporan .card h6 a.profil_cek {
+  text-decoration: underline;
+  color: blue;
+}
+.detail_laporan .card .mb-3 label h6 a:hover,
+.detail_laporan .card h6 a.profil_cek:hover {
+  color: #000000;
+}
+.detail_laporan .modal .modal-body .form .form-control {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  background: rgba(0, 0, 0, 0);
+}
+.detail_laporan .foto {
+  max-width: 100%;
+  max-height: 150px;
+  margin-bottom: 20px;
+}
+/* detail laporan */
+
+/* DATA LAPORAN */
+.data_laporan {
+  position: relative;
+}
+.data_laporan h3 a {
+  color: #000;
+  text-decoration: none;
+}
+.data_laporan .pdf {
+  position: absolute;
+  top: 0px;
+  right: 465px;
+}
+.data_laporan .d-flex {
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 100px;
+  margin-left: 50px;
+  width: 450px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-sizing: border-box;
+  border: 1.5px solid rgb(0, 0, 0);
+}
+.data_laporan .d-flex input {
+  width: 402px;
+  margin: 0px;
+  height: 36px;
+  border: 0px;
+  background-color: #ffffff;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  z-index: 2;
+}
+.data_laporan .d-flex button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 36px;
+  width: 43px;
+  font-size: 26px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  z-index: 1;
+  background: rgba(0, 0, 0, 1);
+}
+.data_laporan .d-flex button:hover i {
+  color: #a2a2a2;
+  /* color: #3c3c3c; */
+  cursor: pointer;
+}
+.data_laporan .d-flex button i {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  color: #fff;
+}
+.data_laporan table thead tr th {
+  text-align: center;
+}
+.data_laporan .table thead tr th:nth-child(1) {
+  width: 110px;
+}
+.data_laporan .table thead tr th:nth-child(5) {
+  width: 280px;
+}
+.data_laporan .table thead tr th:nth-child(6) {
+  width: 70px;
+}
+.data_laporan table tbody tr td:nth-child(7) {
+  width: 50px;
+  color: rgb(255, 255, 255);
+}
+/* data Laporan */
+
+/* DATA MASYARAKAT */
+.data_masyarakat {
+  position: relative;
+}
+.data_masyarakat .d-flex {
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 100px;
+  margin-left: 50px;
+  width: 450px;
+  padding: 0px;
+  position: absolute;
+  top: 65px;
+  right: 0px;
+  box-sizing: border-box;
+  border: 1.5px solid rgb(0, 0, 0);
+}
+.data_masyarakat .d-flex input {
+  width: 402px;
+  margin: 0px;
+  height: 36px;
+  border: 0px;
+  background-color: #ffffff;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  z-index: 2;
+}
+.data_masyarakat .d-flex button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 36px;
+  width: 43px;
+  font-size: 26px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  z-index: 1;
+  background: rgba(0, 0, 0, 1);
+}
+.data_masyarakat .d-flex button:hover i {
+  color: #a2a2a2;
+  /* color: #3c3c3c; */
+  cursor: pointer;
+}
+.data_masyarakat .d-flex button i {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  color: #fff;
+}
+.data_masyarakat table thead tr th {
+  text-align: center;
+}
+.data_masyarakat .table thead tr th:nth-child(1) {
+  width: 100px;
+}
+.data_masyarakat .table thead tr th:nth-child(4) {
+  width: 160px;
+}
+.data_masyarakat .table thead tr th:nth-child(5) {
+  width: 180px;
+}
+.data_masyarakat table tbody tr th {
+  text-align: center;
+}
+.data_masyarakat table tbody tr td:nth-child(5) a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.data_masyarakat table tbody tr td:nth-child(5) a:hover {
+  color: rgb(255, 0, 0);
+}
+.data_masyarakat .table thead tr th:nth-child(6) {
+  width: 105px;
+}
+.data_masyarakat table tbody tr td:nth-child(6) a {
+  width: 40px;
+  color: rgb(255, 255, 255);
+}
+.data_masyarakat table tbody tr td:nth-child(6) a:nth-child(2) {
+  color: #fff;
+}
+/* data masyarakat */
+
+/* DATA PETUGAS */
+.data_petugas {
+  position: relative;
+}
+.data_petugas .d-flex {
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 100px;
+  margin-left: 50px;
+  width: 450px;
+  padding: 0px;
+  position: absolute;
+  top: 65px;
+  right: 0px;
+  box-sizing: border-box;
+  border: 1.5px solid rgb(0, 0, 0);
+}
+.data_petugas .d-flex input {
+  width: 402px;
+  margin: 0px;
+  height: 36px;
+  border: 0px;
+  background-color: #ffffff;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  z-index: 2;
+}
+.data_petugas .d-flex button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 36px;
+  width: 43px;
+  font-size: 26px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  z-index: 1;
+  background: rgba(0, 0, 0, 1);
+}
+.data_petugas .d-flex button:hover i {
+  color: #a2a2a2;
+  /* color: #3c3c3c; */
+  cursor: pointer;
+}
+.data_petugas .d-flex button i {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  color: #fff;
+}
+.data_petugas table thead tr th {
+  text-align: center;
+}
+.data_petugas .table thead tr th:nth-child(1) {
+  width: 100px;
+}
+.data_petugas .table thead tr th:nth-child(4) {
+  width: 160px;
+}
+.data_petugas .table thead tr th:nth-child(5) {
+  width: 180px;
+}
+.data_petugas table tbody tr th {
+  text-align: center;
+}
+.data_petugas table tbody tr td:nth-child(5) a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.data_petugas table tbody tr td:nth-child(5) a:hover {
+  color: rgb(255, 0, 0);
+}
+.data_petugas .table thead tr th:nth-child(6) {
+  width: 105px;
+}
+.data_petugas table tbody tr td:nth-child(6) a {
+  width: 40px;
+  color: rgb(255, 255, 255);
+}
+.data_petugas table tbody tr td:nth-child(6) a:nth-child(2) {
+  color: #fff;
+}
+/* data petugas */
+
+/* LAPORAN DATA */
+.lapor form {
+  width: 75%;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  padding: 35px;
+}
+.lapor form textarea {
+  height: 200px;
+}
+.laporan.data {
+  position: relative;
+}
+.laporan.data a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.laporan.data .card .btn.apa a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.laporan.data .kosong {
+  width: 100%;
+  height: 455px;
+  display: grid;
+  place-items: center center;
+  background: rgb(255, 255, 255, 0);
+}
+.laporan.data .card {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  position: relative;
+  width: 48rem;
+}
+.laporan.data .card .atas {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.laporan.data .card .atas .btn.pdf {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.laporan.data .card .atas .lebel {
+  background: rgb(211, 211, 211);
+  /* width: 100px; */
+  padding: 10px;
+  text-align: center;
+  /* position: absolute;
+    top: 0px;
+    right: 0px; */
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  border-top-right-radius: 6px;
+}
+.laporan.data .card a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.laporan.data .card table {
+  margin-bottom: 35px;
+}
+.laporan.data .card table tr td:nth-child(1) {
+  width: 150px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+.laporan.data .card table tr td:nth-child(1) p {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.laporan.data .card table tr td:nth-child(2) {
+  padding-left: 7px;
+}
+.laporan.data .card a:hover {
+  color: rgb(99, 99, 99);
+}
+.laporan.data .card .aksi {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.laporan.data .modal .modal-body .form .form-control {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  background: rgba(0, 0, 0, 0);
+}
+.laporan.data .d-flex {
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 100px;
+  margin-left: 50px;
+  width: 450px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-sizing: border-box;
+  border: 1.5px solid rgb(0, 0, 0);
+}
+.laporan.data .d-flex input {
+  width: 402px;
+  margin: 0px;
+  height: 36px;
+  border: 0px;
+  background-color: #ffffff;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  z-index: 2;
+}
+.laporan.data .d-flex button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 36px;
+  width: 43px;
+  font-size: 26px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  z-index: 1;
+  background: rgba(0, 0, 0, 1);
+}
+.laporan.data .d-flex button:hover i {
+  color: #a2a2a2;
+  /* color: #3c3c3c; */
+  cursor: pointer;
+}
+.laporan.data .d-flex button i {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  color: #fff;
+}
+.laporan.data .foto {
+  max-width: 100%;
+  max-height: 150px;
+  margin-bottom: 20px;
+}
+/* laporan data */
+
+/* PDF LAPOR */
+.pdfLapor h1 {
+  text-align: center;
+}
+.pdfLapor .atas {
+  width: 100%;
+  border-top: #000 solid 4px;
+  padding-top: 30px;
+}
+.pdfLapor .atas table {
+  margin-bottom: 35px;
+  width: 100%;
+}
+.pdfLapor .atas table tr td:nth-child(1) {
+  width: 150px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+.pdfLapor .atas table tr td:nth-child(1) p {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.pdfLapor .atas table tr td:nth-child(2) {
+  padding-left: 7px;
+}
+.pdfLapor .isi img.foto {
+  width: 100px;
+}
+/* pdf lapor */
+
+/* PDF LAPOR USER */
+.pdfLaporUser h1,
+.pdfLaporUser p {
+  text-align: center;
+}
+.pdfLaporUser .atas {
+  width: 100%;
+  border-top: #000 solid 4px;
+  padding-top: 30px;
+}
+.pdfLaporUser .atas table {
+  margin-bottom: 35px;
+  width: 100%;
+}
+.pdfLaporUser .atas table tr td:nth-child(1) {
+  width: 150px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+.pdfLaporUser .atas table tr td:nth-child(1) p {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.pdfLaporUser .atas table tr td:nth-child(2) {
+  padding-left: 7px;
+}
+.pdfLaporUser .isi table {
+  border: #000 solid 1px;
+}
+.pdfLaporUser .isi table tr,
+.pdfLaporUser .isi table tr td,
+.pdfLaporUser .isi table tr th {
+  border: #000 1px solid;
+}
+.pdfLaporUser .isi table tr th {
+  text-align: center;
+}
+/* pdf lapor  user*/
+
+/* LAPORAN DATA PETUGAS */
+.laporan_data_petugas {
+  position: relative;
+}
+.laporan_data_petugas h3 a {
+  color: #000;
+  text-decoration: none;
+}
+.laporan_data_petugas .pdf {
+  position: absolute;
+  top: 0px;
+  right: 460px;
+}
+.laporan_data_petugas .d-flex {
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 100px;
+  margin-left: 50px;
+  width: 450px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-sizing: border-box;
+  border: 1.5px solid rgb(0, 0, 0);
+}
+.laporan_data_petugas .d-flex input {
+  width: 402px;
+  margin: 0px;
+  height: 36px;
+  border: 0px;
+  background-color: #ffffff;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  z-index: 2;
+}
+.laporan_data_petugas .d-flex button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 36px;
+  width: 43px;
+  font-size: 26px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  z-index: 1;
+  background: rgba(0, 0, 0, 1);
+}
+.laporan_data_petugas .d-flex button:hover i {
+  color: #a2a2a2;
+  /* color: #3c3c3c; */
+  cursor: pointer;
+}
+.laporan_data_petugas .d-flex button i {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  color: #fff;
+}
+.laporan_data_petugas table thead tr th {
+  text-align: center;
+}
+.laporan_data_petugas .table thead tr th:nth-child(3) {
+  width: 110px;
+}
+.laporan_data_petugas .table thead tr th:nth-child(7) {
+  width: 70px;
+}
+.laporan_data_petugas table tbody tr td:nth-child(8) {
+  width: 50px;
+  color: rgb(255, 255, 255);
+}
+/* laporan data petugas */
+
+/* FOOTER */
+.footer {
+  background: rgb(40, 40, 40);
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  display: grid;
+  place-items: center center;
+  color: #fff;
+}
+/* footer */
+
+/* PROFIL */
+.profil {
+  padding: 20px;
+}
+.profil .kotak {
+  width: 70%;
+}
+.profil .kotak .form-control {
+  background: rgba(0, 0, 0, 0);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.profil .kotak button.apa a {
+  text-decoration: none;
+  color: #fff;
+}
+/* profil */
+
+.ada {
+  display: grid;
+}
+
+@media (max-width: 1024px) {
+  .hal1 .atas {
+    position: relative;
+    background: rgba(33, 97, 94, 1);
+    width: 100%;
+    height: 600px;
+    z-index: 2;
+  }
+  .hal1 .atas img {
+    width: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    /* background: #000; */
+  }
+  .hal1 .atas h1 {
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+  }
+  .hal1 .atas h5 {
+    position: absolute;
+    width: 50%;
+    top: 220px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+  }
+  .hal1 .conten .tentang {
+    margin-top: -100px;
+    padding-top: 200px;
+    position: relative;
+    height: 600px;
+  }
+  .hal1 .conten .tentang h3 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .hal1 .conten .tentang .text {
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    width: 500px;
+  }
+  .hal1 .conten .tentang .text h4 {
+    color: #21615e;
+  }
+  .hal1 .conten .tentang img {
+    width: 380px;
+    bottom: -30px;
+    left: 0px;
+    position: absolute;
+  }
+  .hal1 .conten .tutor {
+    height: 820px;
+    width: 100%;
+    /* border: #000 1px solid; */
+    padding: 50px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .hal1 .conten .tutor h3 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .hal1 .conten .tutor i:nth-child(3),
+  .hal1 .conten .tutor i:nth-child(5) {
+    font-size: 70px;
+    margin-top: 50px;
+  }
+  .hal1 .conten .tutor .kotak {
+    height: 450px;
+    margin-top: 70px;
+    padding: 25px;
+    width: 250px;
+    border: rgba(0, 0, 0, 0.3) 1px solid;
+    display: grid;
+    place-content: center;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    background-color: #21615e;
+    color: #fff;
+  }
+  .hal1 .conten .tutor .kotak i {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .hal1 .conten .tentang {
+    margin-top: -100px;
+    padding-top: 200px;
+    position: relative;
+    height: 600px;
+  }
+  .conten1 .beranda .tentang h3 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .conten1 .beranda .tentang .text {
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    width: 500px;
+  }
+  .conten1 .beranda .tentang .text h4 {
+    color: #21615e;
+  }
+  .conten1 .beranda .tentang img {
+    width: 380px;
+    bottom: -30px;
+    left: 0px;
+    position: absolute;
+  }
+  .conten1 .beranda .tutor {
+    height: 820px;
+    width: 100%;
+    /* border: #000 1px solid; */
+    padding: 50px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .conten1 .beranda .tutor h3 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .conten1 .beranda .tutor i:nth-child(3),
+  .conten1 .beranda .tutor i:nth-child(5) {
+    font-size: 70px;
+    margin-top: 50px;
+  }
+  .conten1 .beranda .tutor .kotak {
+    height: 450px;
+    margin-top: 70px;
+    padding: 25px;
+    width: 250px;
+    border: rgba(0, 0, 0, 0.3) 1px solid;
+    display: grid;
+    place-content: center;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    background-color: #21615e;
+    color: #fff;
+  }
+  .conten1 .beranda .tutor .kotak i {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hal1 .navbar.ct2 {
+    width: 100%;
+    height: 25px;
+    padding-left: 100px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 55px;
+    z-index: 90;
+    padding-left: 0px;
+  }
+  .hal1 .navbar.ct2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: -7px;
+    margin-left: -20px;
+  }
+  .hal1 .navbar.ct2 ul li a {
+    color: #ffffff;
+  }
+  .hal1 .atas {
+    position: relative;
+    background: rgba(33, 97, 94, 1);
+    width: 100%;
+    height: 600px;
+    z-index: 2;
+  }
+  .hal1 .atas img {
+    width: 400px;
+    position: absolute;
+    bottom: 10px;
+    right: 20%;
+    /* background: #000; */
+  }
+  .hal1 .atas h1 {
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+  }
+  .hal1 .atas h5 {
+    position: absolute;
+    width: 90%;
+    top: 210px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+  }
+  .hal1 .conten .tentang {
+    margin-top: -100px;
+    padding-top: 200px;
+    position: relative;
+    height: 600px;
+  }
+  .hal1 .conten .tentang h3 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .hal1 .conten .tentang .text {
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    width: 500px;
+  }
+  .hal1 .conten .tentang .text h4 {
+    color: #21615e;
+  }
+  .hal1 .conten .tentang img {
+    width: 380px;
+    bottom: -30px;
+    left: 0px;
+    position: absolute;
+  }
+  .hal1 .conten .tutor {
+    height: 1320px;
+    width: 100%;
+    /* border: #000 1px solid; */
+    padding: 50px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+  }
+  .hal1 .conten .tutor h3 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .hal1 .conten .tutor i:nth-child(3),
+  .hal1 .conten .tutor i:nth-child(5) {
+    font-size: 70px;
+    margin-top: 50px;
+    transform: rotate(90deg);
+  }
+  .hal1 .conten .tutor .kotak {
+    height: 200px;
+    margin-top: 70px;
+    padding: 25px;
+    width: 500px;
+    border: rgba(0, 0, 0, 0.3) 1px solid;
+    text-align: center;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    background-color: #21615e;
+    color: #fff;
+  }
+  .hal1 .conten .tutor .kotak i {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .conten1 .beranda .tentang {
+    margin-top: -100px;
+    padding-top: 200px;
+    position: relative;
+    height: 600px;
+  }
+  .conten1 .beranda .tentang h3 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .conten1 .beranda .tentang .text {
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    width: 500px;
+  }
+  .conten1 .beranda .tentang .text h4 {
+    color: #21615e;
+  }
+  .conten1 .beranda .tentang img {
+    width: 380px;
+    bottom: -30px;
+    left: 0px;
+    position: absolute;
+  }
+  .conten1 .beranda .tutor {
+    height: 1320px;
+    width: 100%;
+    /* border: #000 1px solid; */
+    padding: 50px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+  }
+  .conten1 .beranda .tutor h3 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .conten1 .beranda .tutor i:nth-child(3),
+  .conten1 .beranda .tutor i:nth-child(5) {
+    font-size: 70px;
+    margin-top: 50px;
+    transform: rotate(90deg);
+  }
+  .conten1 .beranda .tutor .kotak {
+    height: 200px;
+    margin-top: 70px;
+    padding: 25px;
+    width: 500px;
+    border: rgba(0, 0, 0, 0.3) 1px solid;
+    text-align: center;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    background-color: #21615e;
+    color: #fff;
+  }
+  .conten1 .beranda .tutor .kotak i {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hal1 .navbar.ct2 {
+    width: 100%;
+    height: 25px;
+    padding-left: 100px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 55px;
+    z-index: 90;
+    padding-left: 0px;
+  }
+  .hal1 .navbar.ct2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: -7px;
+    margin-left: -20px;
+  }
+  .hal1 .navbar.ct2 ul li a {
+    color: #ffffff;
+  }
+  .hal1 .nav .navbar.ct1 .btn-group,
+  .hal1 .navbar.ct2.index1 ul {
+    display: none;
+  }
+  .hal1 .nav .navbar.ct1 .navbar-toggler {
+    display: block;
+  }
+  .hal1 .atas {
+    position: relative;
+    background: rgba(33, 97, 94, 1);
+    width: 100%;
+    height: 600px;
+    z-index: 2;
+  }
+  .hal1 .atas img {
+    width: 400px;
+    position: absolute;
+    bottom: 10px;
+    right: 20%;
+    /* background: #000; */
+  }
+  .hal1 .atas h1 {
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+  }
+  .hal1 .atas h5 {
+    position: absolute;
+    width: 90%;
+    top: 210px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+  }
+  .hal1 .conten .tentang {
+    margin-top: -100px;
+    padding-top: 200px;
+    position: relative;
+    height: 600px;
+  }
+  .hal1 .conten .tentang h3 {
+    position: static;
+    text-align: center;
+    margin-top: -100px;
+  }
+  .hal1 .conten .tentang .text {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 100%;
+  }
+  .hal1 .conten .tentang .text h4 {
+    color: #21615e;
+    font-size: 15px;
+  }
+  .hal1 .conten .tentang img {
+    width: 380px;
+    bottom: -30px;
+    left: 0px;
+    position: absolute;
+  }
+  .hal1 .conten .tutor {
+    height: 1220px;
+    width: 100%;
+    /* border: #000 1px solid; */
+    padding: 50px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+  }
+  .hal1 .conten .tutor h3 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .hal1 .conten .tutor i:nth-child(3),
+  .hal1 .conten .tutor i:nth-child(5) {
+    font-size: 70px;
+    margin-top: 50px;
+    transform: rotate(90deg);
+  }
+  .hal1 .conten .tutor .kotak {
+    height: 200px;
+    margin-top: 70px;
+    padding: 25px;
+    width: 400px;
+    border: rgba(0, 0, 0, 0.3) 1px solid;
+    text-align: center;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    background-color: #21615e;
+    color: #fff;
+  }
+  .hal1 .conten .tutor .kotak i {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .conten1 .beranda .tentang {
+    margin-top: -100px;
+    padding-top: 200px;
+    position: relative;
+    height: 600px;
+  }
+  .conten1 .beranda .tentang h3 {
+    position: static;
+    text-align: center;
+    margin-top: -100px;
+  }
+  .conten1 .beranda .tentang .text {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 100%;
+  }
+  .conten1 .beranda .tentang .text h4 {
+    color: #21615e;
+    font-size: 15px;
+  }
+  .conten1 .beranda .tentang img {
+    width: 380px;
+    bottom: -30px;
+    left: 0px;
+    position: absolute;
+  }
+  .conten1 .beranda .tutor {
+    height: 1220px;
+    width: 100%;
+    /* border: #000 1px solid; */
+    padding: 50px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+  }
+  .conten1 .beranda .tutor h3 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .conten1 .beranda .tutor i:nth-child(3),
+  .conten1 .beranda .tutor i:nth-child(5) {
+    font-size: 70px;
+    margin-top: 50px;
+    transform: rotate(90deg);
+  }
+  .conten1 .beranda .tutor .kotak {
+    height: 200px;
+    margin-top: 70px;
+    padding: 25px;
+    width: 400px;
+    border: rgba(0, 0, 0, 0.3) 1px solid;
+    text-align: center;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    background-color: #21615e;
+    color: #fff;
+  }
+  .conten1 .beranda .tutor .kotak i {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  /* LAPOR */
+  .lapor form {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    padding: 35px;
+  }
+  .lapor form textarea {
+    height: 200px;
+  }
+  /* lapor */
+
+  /* DATA LAPORAN MASYARAKAT */
+  .data_laporan_masyarakat .card {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+  }
+  /* data laporan masyarakat */
+
+  /* DATA LAPORAN MASYARAKAT */
+  .detail_laporan .card {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+  }
+  /* data laporan masyarakat */
+}
